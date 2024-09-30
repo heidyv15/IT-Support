@@ -298,12 +298,12 @@ h2 {
     text-align: center;
 }
 
-/* Optional: automatically hide the flash message after a few seconds */
-@keyframes fadeOut {
+/* Optional: automatically hide the flash message after a few seconds, remove comments for back end */
+/* @keyframes fadeOut {
     from { opacity: 1; }
     to { opacity: 0; }
 }
 
 .flash-messages {
     animation: fadeOut 5s ease-in-out 5s forwards;
-}
+} */
