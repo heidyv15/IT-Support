@@ -57,7 +57,7 @@ body {
 /* Ticket Form Styling */
 .ticket-form {
     background-color: #ffffff;
-    background-image: url('/static/Logo2.png');
+    background-image: url('static/Logo2.png'); /* Correct relative path for GitHub Pages */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,6 +67,7 @@ body {
     width: 68.5%;
     margin: 30px auto;
 }
+
 
 .ticket-form form {
     background-color: rgba(255, 255, 255, 0.85);
