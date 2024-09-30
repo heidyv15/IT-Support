@@ -8,8 +8,8 @@
 </head>
 <body>
 
-    <!-- Flash Messages -->
-    {% with messages = get_flashed_messages() %}
+    <!-- Flash Messages Remove comment for backend-->
+<!--    {% with messages = get_flashed_messages() %}
       {% if messages %}
         <div class="flash-messages">
           {% for message in messages %}
@@ -17,13 +17,13 @@
           {% endfor %}
         </div>
       {% endif %}
-    {% endwith %}
+    {% endwith %} --!>
 
     <!-- Header Section -->
     <header class="header-section">
         <div class="logo-text-container">
             <div class="logo">
-                <img src="{{ url_for('static', filename='Logo1.png') }}" alt="VeliVal School Logo" class="logo-img">
+                <img src="{{ url_for('static', filename='static/Logo1.png') }}" alt="VeliVal School Logo" class="logo-img">
             </div>
             <div class="title">
                 <h1 style="font-family:Brush Script MT">VeliVal Academy</h1>
